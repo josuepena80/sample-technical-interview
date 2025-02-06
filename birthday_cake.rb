@@ -24,6 +24,11 @@ require "active_support/all"
 class BirthdayCake
   attr_accessor :age, :lit
 
+def initialize BirthdayCake
+@age = age
+@lit = lit
+end
+
   def initialize(age)
     self.age = age
     self.lit = false
